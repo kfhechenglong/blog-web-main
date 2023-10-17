@@ -1,39 +1,75 @@
-# blog-web-main
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+<div><a href="https://github.com/esplori/nuxtWebPlus/blob/dev/README.md">中文</a>  |  <a href="https://github.com/esplori/nuxtWebPlus/blob/dev/README.en.md">english</a></div>
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">nuxtWebPlus</h1>
+<h4 align="center">基于nuxtjs3.0开发的博客系统</h4>
+<p align="center">
+	<a href="https://gitee.com/kfhechenglong/blog-web-main.git"><img src="https://gitee.com/kfhechenglong/blog-web-main/badge/star.svg?theme=dark"></a>
+	<a href="https://gitee.com/kfhechenglong/blog-web-main.git"><img src="https://gitee.com/kfhechenglong/blog-web-main/badge/fork.svg?theme=dark"></a>
+</p>
 
 
-#### 特技
+### 项目介绍：
+ 本项目基于[Nuxt3](https://nuxt.com/)创建的博客系统,可被搜索引擎正常爬取收录，可作为门户网站使用（如掘金/爱奇艺官网使用的就是Nuxt）。
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 主要技术栈:
+
+ [nuxtjs 3.0](https://nuxt.com/docs/getting-started/introduction) 、[element-plus](https://element-plus.gitee.io/zh-CN/) 、typescript 、highlight.js 、 sass
+
+### 主要功能/页面：
+
+- 文章列表
+- 文章详情
+- 文章推荐
+- 文章评论
+- 文章专题
+- 网站导航
+
+### 关联项目
+- 官网：[https: //www.dsiab.com](https://www.dsiab.com)
+- 博客首页开源项目: nuxtWebPlus (https://gitee.com/kfhechenglong/blog-web-main-plus.git) 
+- 博客前后台微服务开源项目: springCloudAdmin (https://gitee.com/wilkwo/spring-cloud-admin.git) 
+- 后台管理体验地址： https://admin.dsiab.com , 体验账号：test/test
+- 加qq群一起交流：514450699
+
+### nuxt优势：
+
+- nuxt开发的项目能被搜索引擎收录，能进行seo。
+
+- 上手简单，语法跟vue基本一致。
+
+- 能正常接入统计跟广告代码。
+
+
+### 如何启动应用
+
+```bash
+# 下载代码
+git clone https://gitee.com/kfhechenglong/blog-web-main-plus.git
+# 安装依赖
+$ npm install
+# 本地启动在 localhost:3000
+$ npm run dev
+# 部署到服务器，先build，再执行start启动
+$ npm run build
+# 生成静态项目
+$ npm run generate
+```
+
+### 如何部署
+   参考文章： https://www.dsiab.com/post/d435197f-f03f-481b-9c4a-f33d2875d317
+
+### 注意
+
+- 项目默认调用官网接口，数据跟官网同步
+  
+- 如果要使用本地接口，请修改/utils/baseUrl.js 文件中的baseUrl为自己服务地址
+
+### 感谢赞赏
+
+创作不易，你的赞赏和认可是持续更新的动力！
+
+<img src="./assets/img/zanshan.jpeg" alt="赞赏" width="300px" />
+
+
+

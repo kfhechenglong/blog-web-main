@@ -1,36 +1,58 @@
-# blog-web-main
 
-#### Description
-{**When you're done, you can delete the content in this README and update the file with details for others getting started with your repository**}
+<div><a href="https://github.com/kfhechenglong/blog-web-main/blob/dev/README.md">中文</a>  |  <a href="https://github.com/kfhechenglong/blog-web-main/blob/dev/README.en.md">english</a></div>
 
-#### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">nuxtWebPlus</h1>
+<h4 align="center">Blogging system developed based on NuxtjS3.0</h4>
+<p align="center">
+	<a href="https://gitee.com/kfhechenglong/blog-web-main.git"><img src="https://gitee.com/kfhechenglong/blog-web-main/badge/star.svg?theme=dark"></a>
+	<a href="https://gitee.com/kfhechenglong/blog-web-main.git"><img src="https://gitee.com/kfhechenglong/blog-web-main/badge/fork.svg?theme=dark"></a>
+</p>
 
 
-#### Gitee Feature
+### Project Introduction:
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- Key technologies: [nuxtjs 3.0](https://nuxt.com/docs/getting-started/introduction) 、[element-plus](https://element-plus.gitee.io/zh-CN/)
+
+### Demo address
+
+
+- Website[https: //www.dsiab.com](https://www.dsiab.com)
+- Background management experience address： https://admin.dsiab.com , experience account: test/test
+
+
+
+### Reasons to choose NUXT:
+
+- The projects developed by Nuxt can be indexed by search engines and can be SEO.
+
+- It is simple to get started, and the syntax is basically the same as vue.
+
+- Can access statistics and advertising code normally.
+
+### How to launch the app
+
+```bash
+# download code
+git clone https://github.com/kfhechenglong/blog-web-main.git
+# install dependencies
+$ npm install
+# start the application localhost:3000
+$ npm run dev
+# build application
+$ npm run build
+# generate application
+$ npm run generate
+```
+### note
+- By default, the official website interface is called, and the data is synchronized with the official website
+  
+- If you want to use the local interface, modify the baseUrl in the /plugins/baseUrl.js file
+
+### Thanks for the appreciation
+
+Creation is not easy, your appreciation and recognition is the driving force for continuous renewal!
+
+<img src="./assets/img/zanshan.jpeg" alt="赞赏" width="300px" />
+
+
+
