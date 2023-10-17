@@ -69,7 +69,7 @@ $ npm run generate
 
 创作不易，你的赞赏和认可是持续更新的动力！
 
-<img src="./assets/img/zanshan.jpeg" alt="赞赏" width="300px" />
+<img src="./assets/img/donate.jpeg" alt="赞赏" width="300px" />
 
 
 
